@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .App-logo {
@@ -36,3 +39,28 @@
     transform: rotate(360deg);
   }
 }
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 12px;
+  margin: 10px 10px 10px 0;
+  background-color: white;
+  color: gray;
+  border: 2px solid gray;
+}
+
+.button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.container-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-img {
+  padding: 5px;
+}
+
